@@ -1,4 +1,8 @@
 /* Place CSS styles here */
+html {
+  scroll-behavior: smooth;
+}
+
 span {
   color: #00c200;
 }
