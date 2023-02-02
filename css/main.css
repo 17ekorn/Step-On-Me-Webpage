@@ -3,6 +3,50 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  color: purple;
+}
+
+p {
+  color: yellow;
+  font-size: 20px;
+  background-color: #efefef;
+}
+
+/* homepage */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+
+
+h1 {
+  color: red;
+}
+
 span {
   color: #00c200;
 }
+
+
+
+/* .cat-capn-crunch {
+  background-color: pink;
+} */
+
+a {
+  color: brown;
+}
+
+a:hover {
+  color: green;
+}
+
+/*
+.cat-frosted-flakes {
+  color: orange;
+} */
