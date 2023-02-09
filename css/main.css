@@ -17,10 +17,19 @@ h4,
 h5,
 h6 {
   font-family: 'Karla', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 5px 4px 7px #00c200;
+}
+
+h1 {
+  font-size: 64px;
 }
 
 p {
   font-size: 20px;
+  line-height: 1.4;
   background-color: #efefef;
 }
 
@@ -57,7 +66,6 @@ a:hover {
   color: green;
 }
 
-/*
-.cat-frosted-flakes {
-  color: orange;
-} */
+.tom-and-jerry-center {
+  text-align: center;
+}
