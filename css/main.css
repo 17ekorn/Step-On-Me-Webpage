@@ -81,3 +81,24 @@ a:hover {
 .tom-and-jerry-center {
   text-align: center;
 }
+
+.val-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.val-intro {
+  background-color: pink;
+  text-align: center;
+}
+
+.val-smaller-image {
+  width: 20%;
+}
+
+.val-row-3-tiles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
