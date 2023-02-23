@@ -82,12 +82,42 @@ a:hover {
   text-align: center;
 }
 
-.val-header {
+.val-header,
+.purple-intro-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 60px;
   background-color: #dedede;
+}
+
+.purple-red-wrapper {
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+}
+
+.purple-red-inside-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.purple-red-featured-image img {
+  width: 400px;
+}
+
+.purple-red-item {
+  display: flex;
+}
+
+.purple-red-item img {
+  width: 150px;
+}
+
+.purple-intro-subwrapper {
+  display: flex;
+  align-items: center;
 }
 
 .val-header1 {
