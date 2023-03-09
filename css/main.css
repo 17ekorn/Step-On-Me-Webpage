@@ -7,6 +7,12 @@ body {
   color: purple;
   /* distribute font to entire site */
   font-family: 'Merriweather', serif;
+  background-color: #ddd;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* distribute font to all headings */
@@ -50,6 +56,44 @@ p {
   overflow: hidden;
   white-space: nowrap;
   border: 0;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* phone */
+@media screen and (max-width: 479px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 480px) {
+  .header {
+
+  }
+}
+
+.logo {
+  max-width: 70px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 8px;
+}
+
+/* main nav phone styles */
+@media screen and (max-width: 479px) {
+  .main-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 /* homepage */
@@ -205,27 +249,49 @@ footer img {
   }
 }
 
-
-
-
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}
-
+/* base */
 .episodes {
   display: flex;
 }
 
+/* phone screen */
 @media screen and (max-width: 767px) {
   .episodes {
     flex-direction: column;
   }
 }
 
+/* desktop screen */
 @media screen and (min-width: 768px) {
   .episodes {
     flex-direction: row;
   }
+}
+
+.albums {
+  display: flex;
+  gap: 12px;
+}
+
+/* phone */
+@media screen and (max-width: 479px) {
+  .albums {
+    flex-direction: column;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .albums {
+    background-color: red;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 768px){
+
+}
+
+.album {
+
 }
