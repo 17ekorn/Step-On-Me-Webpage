@@ -403,3 +403,32 @@ button {
 }
 
 /* END PSEUDO-ZEN */
+
+/* CSS POSITIONING */
+.positioning-star-wrapper {
+  position: relative;
+}
+
+.positioning-star {
+  width: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.positioning-star-1 {
+  border: 1px solid red;
+}
+
+.positioning-star-2 {
+  border: 1px solid blue;
+}
+
+.positioning-star-3 {
+  border: 1px solid green;
+}
+
+.positioning-star-4 {
+  border: 1px solid orange;
+}
+/* END CSS POSITIONING */
