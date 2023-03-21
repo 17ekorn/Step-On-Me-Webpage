@@ -295,3 +295,111 @@ footer img {
 .album {
 
 }
+
+/* PSEUDO-ZEN */
+button {
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: black;
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #666;
+}
+
+.primary-button:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.secondary-button {
+  background-color: white;
+  color: black;
+}
+
+.secondary-button:hover {
+  background-color: #ddd;
+}
+
+.secondary-button:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.error-button {
+  background-color: red;
+  color: white;
+}
+
+.error-button:hover {
+  background-color: darkred;
+}
+
+.error-button:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.disabled-button {
+  cursor: not-allowed;
+}
+
+.disabled-button:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.primary-link {
+  color: black;
+}
+
+.primary-link:hover {
+  color: #666;
+}
+
+.primary-link:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  color: #666;
+  border: 1px solid #666;
+}
+
+.nav-link:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.disabled-link {
+
+}
+
+.pseudo-form label,
+.pseudo-form input,
+.pseudo-form textarea {
+  display: block;
+}
+
+.pseudo-form input,
+.pseudo-form textarea {
+  min-width: 400px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.pseudo-form input:hover,
+.pseudo-form textarea:hover {
+  border: 1px solid darkgray;
+}
+
+.pseudo-form input:focus,
+.pseudo-form textarea:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+/* END PSEUDO-ZEN */
