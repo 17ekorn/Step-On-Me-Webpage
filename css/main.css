@@ -90,10 +90,11 @@ img {
 
 .p2 span{
   font-family: 'Press Start 2P', cursive;
-  color: var(--blue);
-  border-radius: 39% 20% 81% 70%;
-  background-color:var(--red);
-  padding: 0.4em;
+  color: #e591a8;
+  border-radius: 39% 116% 81% 70%;
+  background-color: #7e3caa;
+  padding: 0.2em;
+  margin-right: 10px;
 }
 
 
@@ -326,9 +327,9 @@ img {
 }
 
 .lyric10 span{
-  font-family: 'Special Elite', cursive;
-  text-shadow: var(--yellow) 1px 0 10px;
-  color:var(--red);
+    font-family: 'Special Elite', cursive;
+    text-shadow: var(--yellow) 1px 0 10px;
+    color: #8b61ce;
 }
 
 .lyric11{
